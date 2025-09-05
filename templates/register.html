@@ -2,12 +2,64 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Register (HJSS)</title>
+        <title>HJSS - Registration</title>
         <meta name="viewport" content="width=device-width, inital-scale">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css')}}">
     </head>
 
     <body>
+        <header>
+            <h1>Hatfield Junior Swimming School</h1>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/login">Login</a>
+                <a href="/registration">Register</a>
+                <a href="/timetable">Timetable</a>
+            </nav>
+        </header>
 
+        <main>
+            <div class="section-container">
+                <form action="#">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter full name">
+
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age" placeholder="Enter age">
+
+                    <label>Gender</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+
+                    <label for="contact">Emergency Contact</label>
+                    <input type="tel" id="contact" name="contact" placeholder="Enter phone number">
+
+                    <label for="grade">Current Grade</label>
+                    <select id="grade" name="grade">
+                        <option value="0">0 (Beginner)</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+
+                    <label for="medical">Medical Notes</label>
+                    <textarea id="medical" name="medical" placeholder="Enter any medical notes"></textarea>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter email">
+
+                    <button type="submit">Register</button>
+                </form>    
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Hatfield Junior Swimming School</p>
+        </footer>
     </body>
 </html>
