@@ -1,0 +1,13 @@
+
+
+
+/* Register */
+
+form label,
+form input,
+form select,
+form textarea,
+form button {
+  display: block;   /* makes each element take its own line */
+  margin-bottom: 10px; /* adds spacing between them */
+}
