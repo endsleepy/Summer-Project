@@ -137,3 +137,8 @@ Lesson Schedule Distribution:
 - Mix of different coaches across lessons 
 
 #### Note: This is a static website project. All forms and interactive elements should be designed to look functional, but do not need to actually work. Focus on creating a professional, well-designed website that demonstrates good HTML structure and CSS styling skills.
+
+***
+
+## Resources I Used
+- [Tutorial video on Login Form](https://www.youtube.com/watch?v=hlwlM4a5rxg)
