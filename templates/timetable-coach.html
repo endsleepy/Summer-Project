@@ -2,12 +2,58 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Coaches (HJSS)</title>
+        <title>HJSS – Weekly Timetable</title>
         <meta name="viewport" content="width=device-width, inital-scale">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css')}}">
     </head>
 
     <body>
+        <header>
+            <nav>
+                <a href="/timetable">Timetable</a>
+                <a href="/timetable/days">By day</a>
+                <a href="/timetable/grades">By grade</a>
+                <a href="/timetable/coaches">By Coach</a>
+            </nav>
+        </header>
+    
+        <h1>Timetable by Coach</h1>
+
+        <section>
+            <h1>Coach James</h1>
+            <ul>
+                <li>Monday 4-5 pm - (Grade 1) </li>
+                <li>Wednesday 5-6 pm - Grade 5</li>
+                <li>Friday 6-7 pm - (Grade 5)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h1>Coach Ren</h1>
+            <ul>
+                <li>Monday 5-6 pm - (Grade 4)</li>
+                <li>Saturday 2-3 pm - (Grade 1)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h1>Coach Albert</h1>
+            <ul>
+                <li>Monday 6-7 pm - (Grade 3)</li>
+                <li>Wednesday 4-5 pm - (Grade 2)</li>
+                <li>Friday 5-6pm - (Grade 2)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h1>Coach Olivia</h1>
+            <ul>
+                <li>Wednesday 6-7 pm - (Grade 4)</li>
+                <li>Friday 4-5 pm - (Grade 3)</li>
+                <li>Saturday 3-4 pm - (Grade 0)</li>
+            </ul>
+        </section>
+
 
     </body>
 </html>
