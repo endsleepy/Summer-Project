@@ -20,15 +20,15 @@ def timetable():
 
 @app.route('/timetable/days')
 def timetable_days():
-    return render_template('timetable_day.html')
+    return render_template('timetable-day.html')
 
 @app.route('/timetable/grades')
 def timetable_grades():
-    return render_template('timetable_grade.html')
+    return render_template('timetable-grade.html')
 
 @app.route('/timetable/coaches')
 def timetable_coaches():
-    return render_template('timetable_coach.html')
+    return render_template('timetable-coach.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
